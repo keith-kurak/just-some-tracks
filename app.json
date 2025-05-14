@@ -1,6 +1,6 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "justsometracks",
     "userInterfaceStyle": "automatic",
     "orientation": "default",
     "web": {
@@ -12,9 +12,18 @@
         {
           "origin": "https://n"
         }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone."
+        }
       ]
     ],
     "name": "just-some-tracks",
-    "slug": "just-some-tracks"
+    "slug": "just-some-tracks",
+    "ios": {
+      "bundleIdentifier": "com.keith-kurak.just-some-tracks"
+    }
   }
 }
